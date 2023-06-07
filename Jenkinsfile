@@ -24,6 +24,16 @@ pipeline {
 			}
 			
 		}
+	} post {
+		always{
+			echo "i run always"
+		}
+		success{
+			echo "i run only when it is success"
+		}
+		failure {
+			echo "i run when you fail"
+		}
 	}
 }
 
