@@ -28,7 +28,7 @@ pipeline {
 	
 	post {
 		always{
-			echo "i run always"
+			echo "i run always hi"
 		}
 		success{
 			echo "i run only when it is success"
